@@ -1,0 +1,108 @@
+.background {
+  background: #f3f5fa;
+}
+
+.work {
+  padding: 100px 0 50px 0;
+}
+
+.section-heading .section-description {
+  /* margin: 20px auto; */
+  text-align: center;
+  justify-content: center;
+}
+
+.section-heading h2 {
+  color: #fff;
+  text-transform: uppercase;
+  padding-top: 20px;
+  font-size: 50px;
+}
+
+.section-heading h3 {
+  color: #fff;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.section-heading #trait {
+  margin: 20px auto;
+  border-bottom: 2px solid #fff;
+  width: 50px;
+}
+
+/* ******************************************************** */
+section .work-main {
+  align-items: center;
+  margin: 50px 20px;
+}
+
+.work-main .work-content {
+  margin: 20px 20px;
+  background-color: #fff;
+  height: 375px;
+  transition: .5s ease-in-out;
+}
+
+.work-content #img {
+  width: 100%;
+  text-decoration: none;
+}
+
+.work-content:hover {
+  cursor: pointer;
+  box-shadow: 3px 4px 5px 4px rgba(0, 0, 0, .5);
+  transform: scale(1.05);
+}
+
+.work-content .img {
+  width: 100%;
+  height: 200px;
+}
+
+.work-content .description {
+  margin: 10px 0 0 10px;
+}
+
+.work-content .description h3 {
+  color: var(--primary);
+}
+
+.work-content .description p {
+
+  font-weight: bold;
+  color: var(--dark);
+}
+
+.primary-text {
+  color: var(--primary);
+}
+
+.description-modal p {
+
+  font-weight: bold;
+  color: var(--dark);
+}
+
+.techno-project {
+  display: flex;
+  justify-content: space-between;
+  justify-content: flex-start;
+
+}
+
+.techno-project ul {
+  list-style-type: none;
+  display: flex;
+
+}
+
+.techno-project ul li {
+  padding-right: 0.8rem;
+}
+
+.techno-project .techno-content {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--dark)
+}

@@ -1,0 +1,54 @@
+.section-about h1 {
+    color: #091E3E;
+    line-height: 1.2;
+}
+
+.section-title-about::before {
+    position: absolute;
+    content: "";
+    width: 150px;
+    height: 5px;
+    left: 0;
+    bottom: 0;
+    background: #06a3da;
+    border-radius: 2px;
+}
+
+.section-title-about.text-center::before {
+    left: 50%;
+    margin-left: -75px;
+}
+
+.service-item {
+    padding: 2rem;
+}
+
+.bg-light-service {
+    background-color: #EEF9FF !important;
+}
+
+.btn-get-started {
+    text-decoration: none;
+    font-family: "Jost", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 28px 11px 28px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 10px 0 0 0;
+    border: .2rem solid #fff;
+    color: #fff;
+    background: transparent;
+    z-index: 100;
+}
+
+.btn-get-started:hover {
+    background: #fff;
+    color: #47b2e4;
+}
+
+.service-icon i{
+    font-size: 30px !important;
+}
